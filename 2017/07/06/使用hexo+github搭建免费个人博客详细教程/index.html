@@ -15,7 +15,7 @@
 <meta property="og:url" content="http://yoursite.com/2017/07/06/使用hexo+github搭建免费个人博客详细教程/index.html">
 <meta property="og:site_name" content="Blog&#39;s Y">
 <meta property="og:description" content="一、博客搭建过程1.创建github博客仓库，yzzplus.github.io 2.配置SSH key1$ cd ~/. ssh #检查本机已存在的ssh密钥 1ssh-keygen -t rsa -C &amp;quot;邮件地址&amp;quot; 然后连续3次回车，最终会生成一个文件在用户目录下，打开用户目录，找到.ssh\id_rsa.pub文件，记事本打开并复制里面的内容，打开你的github主页，进">
-<meta property="og:updated_time" content="2017-08-27T08:00:53.036Z">
+<meta property="og:updated_time" content="2017-08-27T08:12:14.330Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="使用hexo+github搭建免费个人博客详细教程">
 <meta name="twitter:description" content="一、博客搭建过程1.创建github博客仓库，yzzplus.github.io 2.配置SSH key1$ cd ~/. ssh #检查本机已存在的ssh密钥 1ssh-keygen -t rsa -C &amp;quot;邮件地址&amp;quot; 然后连续3次回车，最终会生成一个文件在用户目录下，打开用户目录，找到.ssh\id_rsa.pub文件，记事本打开并复制里面的内容，打开你的github主页，进">
@@ -175,7 +175,7 @@
         <h2 id="一、博客搭建过程"><a href="#一、博客搭建过程" class="headerlink" title="一、博客搭建过程"></a>一、博客搭建过程</h2><p>1.创建github博客仓库，yzzplus.github.io</p>
 <p>2.配置SSH key<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ cd ~/. ssh #检查本机已存在的ssh密钥</div></pre></td></tr></table></figure></p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh-keygen -t rsa -C &quot;邮件地址&quot;</div></pre></td></tr></table></figure>
-<p>然后连续3次回车，最终会生成一个文件在用户目录下，打开用户目录，找到.ssh\id_rsa.pub文件，记事本打开并复制里面的内容，打开你的github主页，进入个人设置 -&gt; SSH and GPG keys -&gt; New SSH key,将刚复制的内容粘贴到key那里，title随便填，保存。<br>more<br>3.安装Node.js</p>
+<p>然后连续3次回车，最终会生成一个文件在用户目录下，打开用户目录，找到.ssh\id_rsa.pub文件，记事本打开并复制里面的内容，打开你的github主页，进入个人设置 -&gt; SSH and GPG keys -&gt; New SSH key,将刚复制的内容粘贴到key那里，title随便填，保存。<br><a id="more"></a><br>3.安装Node.js</p>
 <p>4.安装hexo<br>利用 npm 命令即可安装。（在任意位置点击鼠标右键，选择Git bash）<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install -g hexo</div></pre></td></tr></table></figure></p>
 <p>5.创建hexo文件夹<br>安装完成后，在你喜爱的文件夹下（如F:\hexo），执行以下指令(在F:\hexo内点击鼠标右键，选择Git bash)，Hexo 即会自动在目标文件夹建立网站所需要的所有文件。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo init</div></pre></td></tr></table></figure></p>
 <p>6.本地查看<br>现在我们已经搭建起本地的hexo博客了，执行以下命令(在F:\hexo)，然后到浏览器输入localhost:4000看看。<a href="http://localhost:4000" target="_blank" rel="external">http://localhost:4000</a></p>
